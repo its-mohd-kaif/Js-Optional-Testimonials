@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Testimonials</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <center>
+        <div class="heading">
+          <h3 class="heading__client">CLIENT</h3>
+          <h1 class="heading__testi">TESTIMONIALS</h1>
+        </div>
+        <div class="main">
+          <div class="leftBtn">
+            <button onclick="left()" class="main__btn" id="prev">&lt;</button>
+          </div>
+          <div class="wrapper carousel">
+            <div class="testimonial-container" id="testimonial-container"></div>
+          </div>
+          <div onclick="right()" class="rightBtn">
+            <button class="main__btn" id="next">&gt;</button>
+          </div>
+        </div>
+      </center>
+    </section>
+  </body>
+  <script src="/index.js"></script>
+</html>

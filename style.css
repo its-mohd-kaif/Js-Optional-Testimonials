@@ -1,0 +1,59 @@
+body {
+  background-image: url("/Images//base.jpg");
+}
+
+.heading {
+  margin-top: 3em;
+}
+
+.heading__client {
+  color: red;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.heading__testi {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 3em;
+}
+
+.main {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftBtn,
+.rightBtn {
+  padding-top: 8em;
+}
+
+.main__btn {
+  color: red;
+  background: transparent;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.carousel {
+  width: 100%;
+  border: 1px solid black;
+  padding: 1em;
+  transition-delay: 5s;
+}
+
+.carousel__text {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.carousel__imgDiv {
+  width: 25%;
+  border-radius: 50%;
+  margin-top: -6em;
+}
